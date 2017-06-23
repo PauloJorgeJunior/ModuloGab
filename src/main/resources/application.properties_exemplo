@@ -18,6 +18,6 @@ spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
 # https://drive.google.com/file/d/0B7LND6CRh3BBZEZLNWVsREZHbms/view
 #
 # Comando
-# mvn install:install-file -Dfile={Path/to/your/ojdbc6.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+# mvn install:install-file -D file={Path/to/your/ojdbc6.jar} -D groupId=com.oracle -D artifactId=ojdbc6 -D version=11.2.0 -D packaging=jar
 #
 #
