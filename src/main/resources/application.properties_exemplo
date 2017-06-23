@@ -1,0 +1,11 @@
+# TODO renomeie este arquivo para application.properties e ajuste os dados para acesso ao banco de dados
+#server.port=8080
+
+####Basic Spring Boot Config Oracle
+spring.datasource.url= jdbc:oracle:thin:@//exd1-scan:1521/ORAPVH
+spring.datasource.username=usuario  # ajustar aqui <--
+spring.datasource.password=senha    # ajustar aqui <--
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+#hibernate config
+spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
